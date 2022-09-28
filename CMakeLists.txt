@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.23)
+project(c_algoritms)
+
+set(CMAKE_CXX_STANDARD 23)
+
+add_executable(c_algoritms Solution.cpp Solution.h unionfind/SatisfiabilityOfEqualityEquations.cpp unionfind/SatisfiabilityOfEqualityEquations.h unionfind/NumberOfConnectedComponentsInAnUndirectedGraph.cpp unionfind/NumberOfConnectedComponentsInAnUndirectedGraph.h design/PhoneDirectory.cpp design/PhoneDirectory.h slidingwindow/LongestSubstringWithAtMostTwoDistinctCharacters.cpp slidingwindow/LongestSubstringWithAtMostTwoDistinctCharacters.h structures/TreeNode.cpp structures/TreeNode.h tree/CountUniValueSubtrees.cpp tree/CountUniValueSubtrees.h tree/BinaryTreeLongestConsecutiveSequence.cpp tree/BinaryTreeLongestConsecutiveSequence.h unionfind/SentenceSimilarityII.cpp unionfind/SentenceSimilarityII.h)
